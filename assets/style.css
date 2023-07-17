@@ -1,46 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100&display=swap');
 #card {
-    position: relative; /* Required for positioning the counter */
-    max-width: 50%;
-    margin: 20px auto;
-    background-color: #3498db;
-    color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color:#fff;
     padding: 20px;
-    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 16px 16px #dfebe51a;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-left: 25%;
+    font-size: 20px;
+    font-weight: bold;
     width:50%;
-    box-shadow: 0 0 10px #3498db;
-
+    background-color: rgba(68, 60, 60, 0.082);
+  }
+#card .leftmargin{
+    margin-right: 60%;
 }
-
-#pfpdiv {
-    flex: 0 0 120px;
-    margin-right: 20px;
-}
-
-#pfp {
-    width: 100%;
-    border-radius: 50%;
-}
-
-h1 {
-    font-size: 24px;
+  #user {
+    font-size: 20px;
     margin: 0;
-}
+  }
 
-p {
-    margin: 5px 0;
-}
-
-/* Counter styles */
-#counter {
-    
-    background-color: #a89a60;
-    color: #fff;
-    border-radius: 22px;
-    height: 25px;
-    font-size: 14px;
+  #flex {
     display: flex;
-    justify-content: center;
     align-items: center;
+  }
+
+  #views,
+  #name,
+  #gender,
+  #email,
+  #age,
+  #since {
+    margin: 0;
+    padding: 5px;
+  }
+
+ 
+  #gender::before {
+    content: 'Gender:';
+    font-weight: bold;
+  }
+
+  #age::before {
+    content: 'Age:';
+    font-weight: bold;
+  }
+
+  
+
+  #flex img {
+    max-width: 40px;
+    margin-right: 10px;
+  }
+
+  #user,
+  #name,
+  #email,
+  #age,
+  #since {
+    color: #fff;
+  }
+
+  #gender {
+    color: #f9f9f9;
+  }
+  .views{
+    border: 2px white solid;
+    margin-left: 80%;
+    border-radius: 5%;
+    
+  }
+#since{
+    color:gray !important;
 }
