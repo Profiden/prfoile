@@ -1,0 +1,46 @@
+#card {
+    position: relative; /* Required for positioning the counter */
+    max-width: 50%;
+    margin: 20px auto;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: flex;
+    width:50%;
+    box-shadow: 0 0 10px #3498db;
+
+}
+
+#pfpdiv {
+    flex: 0 0 120px;
+    margin-right: 20px;
+}
+
+#pfp {
+    width: 100%;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+/* Counter styles */
+#counter {
+    
+    background-color: #a89a60;
+    color: #fff;
+    border-radius: 22px;
+    height: 25px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
