@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100&display=swap');
 #card {
-    color:#fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 16px 16px #dfebe51a;
-    font-family: 'Lexend Deca', sans-serif;
-    margin-left: 25%;
-    font-size: 20px;
-    font-weight: bold;
-    width:50%;
-    background-color: rgba(68, 60, 60, 0.082);
-  }
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 16px 16px #dfebe51a;
+  font-family: 'Lexend Deca', sans-serif;
+  margin: 0 auto;
+  font-size: 15px;
+  font-weight: bold;
+  max-width: calc(300px * 2);
+  width: calc(70% * 2);
+  max-height: calc(200px * 2);
+  background-color: rgba(68, 60, 60, 0.082);
+}
 #card .leftmargin{
-    margin-right: 60%;
+    margin-right: 50%;
 }
   #user {
     font-size: 20px;
@@ -71,4 +73,12 @@
   }
 #since{
     color:gray !important;
+}
+@media screen and (max-width: 1063px) {
+  #flex{
+    display: block;
+  }
+  img{
+    visibility: hidden;
+  }
 }
