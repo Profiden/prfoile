@@ -80,5 +80,6 @@
   }
   img{
     visibility: hidden;
+    display:block;
   }
 }
